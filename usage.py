@@ -21,7 +21,7 @@ CAR_BODY_CLASS = pd.read_excel('car_body_classes.xlsx')
 total_operations = DataFrame(columns=['user', 'operation_type', 'duration', 'car_make',
                                       'car_model', 'car_body', 'price_point'])
 j = 0
-for element in foundation[1:]:
+for element in foundation[1:11]:
 
     all_seen_cars = []
     all_price_check_cars = []
@@ -69,13 +69,6 @@ for element in foundation[1:]:
     all_price_check_cars.insert(0, chosen_vehicle)
     all_investigated_cars.insert(0, chosen_vehicle)
 
-    # print(f"interesują mnie: {len(element['34'])} {wanted_body} {budget} {element['34']}")
-    # print(f"widziałem: {len(all_seen_cars)} {all_seen_cars}")
-    # print(f"sprawdziłem cenę: {len(all_price_check_cars)} {all_price_check_cars}")
-    # print(f"przyjżałem się: {len(all_investigated_cars)} {all_investigated_cars}")
-    # print(f"wybrałem: {[element['38'][0], element['38'][1], ' '.join([wanted_body, str(budget)])]}")
-    # print()
-
     seen_times = []
     for i in range(len(all_seen_cars)):
         t = abs(gauss(0.6, 0.6)) + 0.8
@@ -86,8 +79,7 @@ for element in foundation[1:]:
         bob = Operation(element['0'], 'listed', seen_times[i], tile[0], tile[1],
                         tile[2].split(' ')[0], tile[2].split(' ')[1])
         i += 1
-        # print(bob.print_operation())
-        # print(pd.DataFrame(bob.print_operation(), index=[0]))
+
         total_operations = pd.concat([pd.DataFrame(bob.print_operation(), index=[j]), total_operations])
         j += 1
 
@@ -101,7 +93,7 @@ for element in foundation[1:]:
         bob = Operation(element['0'], 'payment-details', price_times[i], tile[0], tile[1],
                         tile[2].split(' ')[0], tile[2].split(' ')[1])
         i += 1
-        # print(bob.print_operation())
+
         total_operations = pd.concat([pd.DataFrame(bob.print_operation(), index=[j]), total_operations])
         j += 1
     details_times = []
@@ -114,9 +106,9 @@ for element in foundation[1:]:
         bob = Operation(element['0'], 'car-details', details_times[i], tile[0], tile[1], tile[2].split(' ')[0],
                         tile[2].split(' ')[1])
         i += 1
-        # print(bob.print_operation())
         total_operations = pd.concat([pd.DataFrame(bob.print_operation(), index=[j]), total_operations])
         j += 1
+
 total_operations.to_csv('total_operations.csv')
 
 conclusion = time.perf_counter()

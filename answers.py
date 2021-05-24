@@ -590,10 +590,8 @@ def question_34(profile):
                "OFFICE": pool[0:-13],
                "SPORT": pool[3:-2],
                "RANDOM": pool}
-    # answer = []
+
     how_many = randint(1, len(mapping[profile]))
-    # for i in range(0, how_many):
-    #     answer.append(mapping[profile].pop(randint(0, how_many - i - 1)))
 
     answer = sample(mapping[profile], how_many)
 

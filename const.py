@@ -60,7 +60,7 @@ BUDGET_CLSS = {
     7: 'powyzej 250 tys.'
 }
 
-CAR_MAKE_BODY_MODELS = {
+MAKE_BODY_MODELS = {
     'Dacia': {
         'hatchback': ['Sandero'],
         'sedan': ['Logan'],
@@ -72,7 +72,7 @@ CAR_MAKE_BODY_MODELS = {
         'cabrio': [],
         'dostawczy': ['Dokker Van'],
         'pickup': ['Duster'],
-        'elektryczny': []
+        'elektryczny': ['Spring']
     },
     'Skoda': {
         'hatchback': ['Fabia', 'Scala', 'Citigo'],
@@ -494,7 +494,8 @@ ELECTRIC_CAR_BODIES = {
         'Enyaq iV',
         'Kona electric',
         'IONIQ',
-        'Mustang Mach-E'],
+        'Mustang Mach-E',
+        'Spring'],
     'SUV': [
         'E-Tron',
         'I-Pace',
@@ -617,15 +618,7 @@ ZIP_CODES = {
         '02-857'],
     'jozefow': [
         '05-410',
-        '05-410',
-        '05-410',
-        '05-410',
-        '05-410',
-        '05-410',
-        '05-410',
-        '05-410',
-        '05-410',
-        '05-410'],
+        '05-420'],
     'ochota': [
         '02-020',
         '02-024',

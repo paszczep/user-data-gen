@@ -48,18 +48,18 @@ def get_ordered_end_time_samples(
     return sorted_times_list
 
 
-end_time_o_clocks = get_ordered_end_time_samples(n=1200)
+end_time_o_clocks = get_ordered_end_time_samples(n=5000)
 
 i = 1
 list_o_gen_samples = [FORM_QUESTIONS]
-car_cost_class = pd.read_excel('car_classes.xlsx')
+car_cost_class = pd.read_csv('all_cars_data.csv')
 
 output_car_groups = {}
 
 for end_time in end_time_o_clocks:
     random_profile = GEN_PROFILES[randint(0, len(GEN_PROFILES) - 1)]
     bob = AnswerSheet(random_profile, i, end_time, car_cost_class)
-    if i < 1147:
+    if i < 7000:
         list_o_gen_samples.append(bob.answers)
     i += 1
 
@@ -67,38 +67,38 @@ for end_time in end_time_o_clocks:
     selected_car = bob.answers[38]
     car_budget = bob.answers[10]
 
-    if random_profile not in output_car_groups:
-        output_car_groups[random_profile] = {}
+    # if random_profile not in output_car_groups:
+    #     output_car_groups[random_profile] = {}
+    #
+    # if selected_body not in output_car_groups[random_profile]:
+    #     output_car_groups[random_profile][selected_body] = {}
+    #
+    # if car_budget not in output_car_groups[random_profile][selected_body]:
+    #     output_car_groups[random_profile][selected_body][car_budget] = []
+    #
+    # if selected_car not in output_car_groups[random_profile][selected_body][car_budget]:
+    #     output_car_groups[random_profile][selected_body][car_budget].append(selected_car)
 
-    if selected_body not in output_car_groups[random_profile]:
-        output_car_groups[random_profile][selected_body] = {}
-
-    if car_budget not in output_car_groups[random_profile][selected_body]:
-        output_car_groups[random_profile][selected_body][car_budget] = []
-
-    if selected_car not in output_car_groups[random_profile][selected_body][car_budget]:
-        output_car_groups[random_profile][selected_body][car_budget].append(selected_car)
-
-result = {}
-
-for profile in output_car_groups:
-    result[profile] = {}
-    for body_type in output_car_groups[profile]:
-        result[profile][body_type] = {}
-        for value in BUDGET_CLSS.values():
-            if value not in output_car_groups[profile][body_type]:
-                continue
-            result[profile][body_type][value] = output_car_groups[profile][body_type][value]
-
-output_car_groups = result
+# result = {}
+#
+# for profile in output_car_groups:
+#     result[profile] = {}
+#     for body_type in output_car_groups[profile]:
+#         result[profile][body_type] = {}
+#         for value in BUDGET_CLSS.values():
+#             if value not in output_car_groups[profile][body_type]:
+#                 continue
+#             result[profile][body_type][value] = output_car_groups[profile][body_type][value]
+#
+# output_car_groups = result
 
 json_forms = "generated_data.json"
-json_groups = "generated_groups.json"
+# json_groups = "generated_groups.json"
 
 with open(json_forms, 'w') as outfile:
     json.dump(list_o_gen_samples, outfile)
 #
-with open(json_groups, 'w') as outfile1:
-    json.dump(output_car_groups, outfile1)
+# with open(json_groups, 'w') as outfile1:
+#     json.dump(output_car_groups, outfile1)
 
 

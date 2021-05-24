@@ -1,0 +1,439 @@
+,make,model,class,car,body,budget
+0,Dacia,Sandero,hatchback 1,Dacia Sandero,hatchback,1
+1,Dacia,Logan,sedan 1,Dacia Logan,sedan,1
+2,Dacia,Logan,kombi 1,Dacia Logan,kombi,1
+3,Dacia,Duster,kombi 1,Dacia Duster,kombi,1
+4,Dacia,Lodgy,minivan 2,Dacia Lodgy,minivan,2
+5,Dacia,Duster,SUV 1,Dacia Duster,SUV,1
+6,Dacia,Duster,crossover 1,Dacia Duster,crossover,1
+7,Dacia,Sandero Stepway,crossover 1,Dacia Sandero Stepway,crossover,1
+8,Dacia,Logan,coupe 1,Dacia Logan,coupe,1
+9,Dacia,Dokker Van,dostawczy 1,Dacia Dokker Van,dostawczy,1
+10,Dacia,Duster,pickup 1,Dacia Duster,pickup,1
+11,Skoda,Fabia,hatchback 1,Skoda Fabia,hatchback,1
+12,Skoda,Scala,hatchback 2,Skoda Scala,hatchback,2
+13,Skoda,Citigo,hatchback 3,Skoda Citigo,hatchback,3
+14,Skoda,Octavia,sedan 3,Skoda Octavia,sedan,3
+15,Skoda,Superb,sedan 3,Skoda Superb,sedan,3
+16,Skoda,Fabia,kombi 1,Skoda Fabia,kombi,1
+17,Skoda,Octavia,kombi 3,Skoda Octavia,kombi,3
+18,Skoda,Scala,kombi 2,Skoda Scala,kombi,2
+19,Skoda,Kamiq,SUV 2,Skoda Kamiq,SUV,2
+20,Skoda,Karoq,SUV 3,Skoda Karoq,SUV,3
+21,Skoda,Kodiaq,SUV 4,Skoda Kodiaq,SUV,4
+22,Skoda,Kamiq,crossover 2,Skoda Kamiq,crossover,2
+23,Skoda,Karoq,crossover 3,Skoda Karoq,crossover,3
+24,Skoda,Kodiaq,crossover 4,Skoda Kodiaq,crossover,4
+25,Skoda,Octavia,coupe 3,Skoda Octavia,coupe,3
+26,Skoda,Enyaq iV,elektryczny 5,Skoda Enyaq iV,elektryczny,5
+27,Fiat,500,hatchback 1,Fiat 500,hatchback,1
+28,Fiat,Panda,hatchback 1,Fiat Panda,hatchback,1
+29,Fiat,Tipo,hatchback 1,Fiat Tipo,hatchback,1
+30,Fiat,Tipo,sedan 1,Fiat Tipo,sedan,1
+31,Fiat,500L,kombi 2,Fiat 500L,kombi,2
+32,Fiat,Doblo,kombi 2,Fiat Doblo,kombi,2
+33,Fiat,500L,minivan 2,Fiat 500L,minivan,2
+34,Fiat,Talento,minivan 3,Fiat Talento,minivan,3
+35,Fiat,500X,SUV 2,Fiat 500X,SUV,2
+36,Fiat,Panda,crossover 1,Fiat Panda,crossover,1
+37,Fiat,500X,crossover 2,Fiat 500X,crossover,2
+38,Fiat,500,cabrio 1,Fiat 500,cabrio,1
+39,Fiat,Ducato,dostawczy 4,Fiat Ducato,dostawczy,4
+40,Fiat,Talento,dostawczy 3,Fiat Talento,dostawczy,3
+41,Fiat,500,elektryczny 1,Fiat 500,elektryczny,1
+42,Kia,Ceed,hatchback 2,Kia Ceed,hatchback,2
+43,Kia,Picanto,hatchback 1,Kia Picanto,hatchback,1
+44,Kia,Stonic,hatchback 2,Kia Stonic,hatchback,2
+45,Kia,Rio,hatchback 1,Kia Rio,hatchback,1
+46,Kia,Soul,hatchback 5,Kia Soul,hatchback,5
+47,Kia,ProCeed,hatchback 4,Kia ProCeed,hatchback,4
+48,Kia,Rio,sedan 1,Kia Rio,sedan,1
+49,Kia,Stinger,sedan 5,Kia Stinger,sedan,5
+50,Kia,Ceed,kombi 2,Kia Ceed,kombi,2
+51,Kia,Sorento,kombi 5,Kia Sorento,kombi,5
+52,Kia,Sorento,SUV 5,Kia Sorento,SUV,5
+53,Kia,Sportage,SUV 3,Kia Sportage,SUV,3
+54,Kia,Stonic,crossover 2,Kia Stonic,crossover,2
+55,Kia,XCeed,crossover 3,Kia XCeed,crossover,3
+56,Kia,Niro,crossover 3,Kia Niro,crossover,3
+57,Kia,Soul,crossover 5,Kia Soul,crossover,5
+58,Kia,Stinger,coupe 5,Kia Stinger,coupe,5
+59,Kia,XCeed,cabrio 3,Kia XCeed,cabrio,3
+60,Kia,e-Niro,elektryczny 5,Kia e-Niro,elektryczny,5
+61,Kia,e-Soul,elektryczny 4,Kia e-Soul,elektryczny,4
+62,Hyundai,i10,hatchback 1,Hyundai i10,hatchback,1
+63,Hyundai,i20,hatchback 1,Hyundai i20,hatchback,1
+64,Hyundai,i30,hatchback 2,Hyundai i30,hatchback,2
+65,Hyundai,Kona,hatchback 2,Hyundai Kona,hatchback,2
+66,Hyundai,i40,sedan 3,Hyundai i40,sedan,3
+67,Hyundai,i30,kombi 2,Hyundai i30,kombi,2
+68,Hyundai,i40,kombi 3,Hyundai i40,kombi,3
+69,Hyundai,Santa Fe,SUV 5,Hyundai Santa Fe,SUV,5
+70,Hyundai,Tucson,SUV 3,Hyundai Tucson,SUV,3
+71,Hyundai,Kona,crossover 2,Hyundai Kona,crossover,2
+72,Hyundai,Santa Fe,crossover 5,Hyundai Santa Fe,crossover,5
+73,Hyundai,Genesis,coupe 7,Hyundai Genesis,coupe,7
+74,Hyundai,Kona,elektryczny 2,Hyundai Kona,elektryczny,2
+75,Hyundai,Kona electric,elektryczny 5,Hyundai Kona electric,elektryczny,5
+76,Hyundai,IONIQ,elektryczny 3,Hyundai IONIQ,elektryczny,3
+77,Renault,Clio,hatchback 1,Renault Clio,hatchback,1
+78,Renault,Megane,hatchback 2,Renault Megane,hatchback,2
+79,Renault,Zoe,hatchback 4,Renault Zoe,hatchback,4
+80,Renault,Megane,sedan 2,Renault Megane,sedan,2
+81,Renault,Talisman,sedan 4,Renault Talisman,sedan,4
+82,Renault,Megane,kombi 2,Renault Megane,kombi,2
+83,Renault,Talisman,kombi 4,Renault Talisman,kombi,4
+84,Renault,Espace,minivan 5,Renault Espace,minivan,5
+85,Renault,Grand Scenic,minivan 4,Renault Grand Scenic,minivan,4
+86,Renault,Trafic,minivan 3,Renault Trafic,minivan,3
+87,Renault,Kadjar,SUV 3,Renault Kadjar,SUV,3
+88,Renault,Koleos,SUV 4,Renault Koleos,SUV,4
+89,Renault,Captur,crossover 2,Renault Captur,crossover,2
+90,Renault,Kadjar,crossover 3,Renault Kadjar,crossover,3
+91,Renault,Megane,coupe 2,Renault Megane,coupe,2
+92,Renault,Clio,cabrio 1,Renault Clio,cabrio,1
+93,Renault,Master,dostawczy 4,Renault Master,dostawczy,4
+94,Renault,Trafic,dostawczy 3,Renault Trafic,dostawczy,3
+95,Renault,Master,pickup 4,Renault Master,pickup,4
+96,Renault,Zoe,elektryczny 4,Renault Zoe,elektryczny,4
+97,Seat,Ibiza,hatchback 2,Seat Ibiza,hatchback,2
+98,Seat,Leon,hatchback 3,Seat Leon,hatchback,3
+99,Seat,Leon,kombi 3,Seat Leon,kombi,3
+100,Seat,Tarraco,SUV 4,Seat Tarraco,SUV,4
+101,Seat,Arona,crossover 2,Seat Arona,crossover,2
+102,Seat,Ateca,crossover 4,Seat Ateca,crossover,4
+103,Ford,Fiesta,hatchback 2,Ford Fiesta,hatchback,2
+104,Ford,Focus,hatchback 2,Ford Focus,hatchback,2
+105,Ford,Focus,sedan 2,Ford Focus,sedan,2
+106,Ford,Mondeo,sedan 3,Ford Mondeo,sedan,3
+107,Ford,Focus,kombi 2,Ford Focus,kombi,2
+108,Ford,Mondeo,kombi 3,Ford Mondeo,kombi,3
+109,Ford,S-Max,kombi 4,Ford S-Max,kombi,4
+110,Ford,S-Max,minivan 4,Ford S-Max,minivan,4
+111,Ford,Galaxy,minivan 5,Ford Galaxy,minivan,5
+112,Ford,C-Max,minivan 3,Ford C-Max,minivan,3
+113,Ford,Tourneo,minivan 3,Ford Tourneo,minivan,3
+114,Ford,Puma,SUV 2,Ford Puma,SUV,2
+115,Ford,Kuga,SUV 4,Ford Kuga,SUV,4
+116,Ford,Edge,SUV 5,Ford Edge,SUV,5
+117,Ford,EcoSport,crossover 2,Ford EcoSport,crossover,2
+118,Ford,Puma,crossover 2,Ford Puma,crossover,2
+119,Ford,Kuga,crossover 4,Ford Kuga,crossover,4
+120,Ford,Focus,coupe 2,Ford Focus,coupe,2
+121,Ford,Mustang,coupe 6,Ford Mustang,coupe,6
+122,Ford,Tourneo,dostawczy 3,Ford Tourneo,dostawczy,3
+123,Ford,Transit,dostawczy 4,Ford Transit,dostawczy,4
+124,Ford,F150,pickup 7,Ford F150,pickup,7
+125,Ford,Ranger Raptor,pickup 6,Ford Ranger Raptor,pickup,6
+126,Ford,Mustang Mach-E,elektryczny 6,Ford Mustang Mach-E,elektryczny,6
+127,Suzuki,Swift,hatchback 2,Suzuki Swift,hatchback,2
+128,Suzuki,Swace,kombi 3,Suzuki Swace,kombi,3
+129,Suzuki,SX4 S-Cross,SUV 2,Suzuki SX4 S-Cross,SUV,2
+130,Suzuki,Vitara,SUV 2,Suzuki Vitara,SUV,2
+131,Suzuki,Ignis,crossover 2,Suzuki Ignis,crossover,2
+132,Suzuki,SX4 S-Cross,crossover 2,Suzuki SX4 S-Cross,crossover,2
+133,Suzuki,Across,crossover 6,Suzuki Across,crossover,6
+134,Volkswagen,Golf,hatchback 2,Volkswagen Golf,hatchback,2
+135,Volkswagen,Polo,hatchback 2,Volkswagen Polo,hatchback,2
+136,Volkswagen,up!,hatchback 1,Volkswagen up!,hatchback,1
+137,Volkswagen,Arteon,sedan 4,Volkswagen Arteon,sedan,4
+138,Volkswagen,Passat,sedan 3,Volkswagen Passat,sedan,3
+139,Volkswagen,Caddy,kombi 3,Volkswagen Caddy,kombi,3
+140,Volkswagen,Sharan,kombi 5,Volkswagen Sharan,kombi,5
+141,Volkswagen,Touran,kombi 3,Volkswagen Touran,kombi,3
+142,Volkswagen,Caddy,minivan 3,Volkswagen Caddy,minivan,3
+143,Volkswagen,Sharan,minivan 5,Volkswagen Sharan,minivan,5
+144,Volkswagen,California,minivan 7,Volkswagen California,minivan,7
+145,Volkswagen,Caravelle,minivan 5,Volkswagen Caravelle,minivan,5
+146,Volkswagen,Amarok,SUV 5,Volkswagen Amarok,SUV,5
+147,Volkswagen,Tiguan,SUV 4,Volkswagen Tiguan,SUV,4
+148,Volkswagen,Touareg,SUV 7,Volkswagen Touareg,SUV,7
+149,Volkswagen,T-Cross,crossover 2,Volkswagen T-Cross,crossover,2
+150,Volkswagen,Tiguan,crossover 4,Volkswagen Tiguan,crossover,4
+151,Volkswagen,T-Roc,crossover 3,Volkswagen T-Roc,crossover,3
+152,Volkswagen,Arteon,coupe 4,Volkswagen Arteon,coupe,4
+153,Volkswagen,Crafter,dostawczy 3,Volkswagen Crafter,dostawczy,3
+154,Volkswagen,Transporter,dostawczy 4,Volkswagen Transporter,dostawczy,4
+155,Volkswagen,Amarok,pickup 5,Volkswagen Amarok,pickup,5
+156,Volkswagen,ID.3,elektryczny 5,Volkswagen ID.3,elektryczny,5
+157,Volkswagen,ID.4,elektryczny 5,Volkswagen ID.4,elektryczny,5
+158,Volkswagen,e-up!,elektryczny 3,Volkswagen e-up!,elektryczny,3
+159,Volkswagen,e-Golf,elektryczny 5,Volkswagen e-Golf,elektryczny,5
+160,Peugeot,208,hatchback 2,Peugeot 208,hatchback,2
+161,Peugeot,308,hatchback 2,Peugeot 308,hatchback,2
+162,Peugeot,508,sedan 4,Peugeot 508,sedan,4
+163,Peugeot,508,kombi 4,Peugeot 508,kombi,4
+164,Peugeot,Partner,kombi 3,Peugeot Partner,kombi,3
+165,Peugeot,Rifter,kombi 2,Peugeot Rifter,kombi,2
+166,Peugeot,Expert,minivan 4,Peugeot Expert,minivan,4
+167,Peugeot,Partner,minivan 3,Peugeot Partner,minivan,3
+168,Peugeot,Rifter,minivan 2,Peugeot Rifter,minivan,2
+169,Peugeot,Traveller,minivan 4,Peugeot Traveller,minivan,4
+170,Peugeot,3008,SUV 3,Peugeot 3008,SUV,3
+171,Peugeot,5008,SUV 4,Peugeot 5008,SUV,4
+172,Peugeot,2008,crossover 3,Peugeot 2008,crossover,3
+173,Peugeot,3008,crossover 3,Peugeot 3008,crossover,3
+174,Peugeot,508,coupe 4,Peugeot 508,coupe,4
+175,Peugeot,Expert,dostawczy 4,Peugeot Expert,dostawczy,4
+176,Peugeot,Partner,dostawczy 3,Peugeot Partner,dostawczy,3
+177,Opel,Corsa,hatchback 1,Opel Corsa,hatchback,1
+178,Opel,Insignia,hatchback 3,Opel Insignia,hatchback,3
+179,Opel,Astra,hatchback 2,Opel Astra,hatchback,2
+180,Opel,Insignia,sedan 3,Opel Insignia,sedan,3
+181,Opel,Insignia,kombi 3,Opel Insignia,kombi,3
+182,Opel,Astra,kombi 2,Opel Astra,kombi,2
+183,Opel,Combo,minivan 3,Opel Combo,minivan,3
+184,Opel,Zafira,minivan 4,Opel Zafira,minivan,4
+185,Opel,Grandland X,SUV 3,Opel Grandland X,SUV,3
+186,Opel,Crossland X,crossover 2,Opel Crossland X,crossover,2
+187,Opel,Mokka,crossover 3,Opel Mokka,crossover,3
+188,Opel,Vivaro,dostawczy 4,Opel Vivaro,dostawczy,4
+189,Opel,Mokka-e,elektryczny 3,Opel Mokka-e,elektryczny,3
+190,Mitsubishi,Eclipse,hatchback 3,Mitsubishi Eclipse,hatchback,3
+191,Mitsubishi,Space Star,hatchback 1,Mitsubishi Space Star,hatchback,1
+192,Mitsubishi,Outlander,SUV 4,Mitsubishi Outlander,SUV,4
+193,Mitsubishi,ASX,crossover 3,Mitsubishi ASX,crossover,3
+194,Mitsubishi,Eclipse Cross,crossover 3,Mitsubishi Eclipse Cross,crossover,3
+195,Mitsubishi,L200,pickup 4,Mitsubishi L200,pickup,4
+196,Nissan,Micra,hatchback 2,Nissan Micra,hatchback,2
+197,Nissan,NV200,minivan 4,Nissan NV200,minivan,4
+198,Nissan,X-Trail,SUV 4,Nissan X-Trail,SUV,4
+199,Nissan,Juke,crossover 2,Nissan Juke,crossover,2
+200,Nissan,Qashqai,crossover 3,Nissan Qashqai,crossover,3
+201,Nissan,370 Z,coupe 5,Nissan 370 Z,coupe,5
+202,Nissan,Juke,cabrio 2,Nissan Juke,cabrio,2
+203,Nissan,Navara,pickup 5,Nissan Navara,pickup,5
+204,Nissan,Leaf,elektryczny 4,Nissan Leaf,elektryczny,4
+205,Honda,Civic,hatchback 3,Honda Civic,hatchback,3
+206,Honda,Jazz,hatchback 3,Honda Jazz,hatchback,3
+207,Honda,CR-V,SUV 4,Honda CR-V,SUV,4
+208,Honda,HR-V,crossover 3,Honda HR-V,crossover,3
+209,Honda,Jazz Crosstar,crossover 4,Honda Jazz Crosstar,crossover,4
+210,Honda,Civic Type R,coupe 5,Honda Civic Type R,coupe,5
+211,Honda,NSX,coupe 7,Honda NSX,coupe,7
+212,Honda,e,elektryczny 5,Honda e,elektryczny,5
+213,Subaru,Impreza,hatchback 4,Subaru Impreza,hatchback,4
+214,Subaru,Impreza,sedan 4,Subaru Impreza,sedan,4
+215,Subaru,Outback,SUV 5,Subaru Outback,SUV,5
+216,Subaru,XV,crossover 4,Subaru XV,crossover,4
+217,Subaru,Forester,crossover 5,Subaru Forester,crossover,5
+218,Subaru,BRZ,coupe 5,Subaru BRZ,coupe,5
+219,Toyota,Aygo,hatchback 1,Toyota Aygo,hatchback,1
+220,Toyota,Yaris,hatchback 1,Toyota Yaris,hatchback,1
+221,Toyota,Corolla,hatchback 3,Toyota Corolla,hatchback,3
+222,Toyota,Prius,hatchback 4,Toyota Prius,hatchback,4
+223,Toyota,Corolla,sedan 3,Toyota Corolla,sedan,3
+224,Toyota,Camry,sedan 4,Toyota Camry,sedan,4
+225,Toyota,Proace City Verso,minivan 2,Toyota Proace City Verso,minivan,2
+226,Toyota,RAV4,SUV 4,Toyota RAV4,SUV,4
+227,Toyota,Land Cruiser,SUV 6,Toyota Land Cruiser,SUV,6
+228,Toyota,C-HR,crossover 3,Toyota C-HR,crossover,3
+229,Toyota,RAV4,crossover 4,Toyota RAV4,crossover,4
+230,Toyota,Supra,coupe 7,Toyota Supra,coupe,7
+231,Toyota,Proace,dostawczy 2,Toyota Proace,dostawczy,2
+232,Toyota,Hilux,pickup 4,Toyota Hilux,pickup,4
+233,Mazda,3,hatchback 3,Mazda 3,hatchback,3
+234,Mazda,3,sedan 3,Mazda 3,sedan,3
+235,Mazda,6,sedan 3,Mazda 6,sedan,3
+236,Mazda,6,kombi 3,Mazda 6,kombi,3
+237,Mazda,CX-30,SUV 4,Mazda CX-30,SUV,4
+238,Mazda,CX-3,crossover 2,Mazda CX-3,crossover,2
+239,Mazda,CX-5,crossover 4,Mazda CX-5,crossover,4
+240,Mazda,MX-30,crossover 4,Mazda MX-30,crossover,4
+241,Mazda,MX-5,coupe 5,Mazda MX-5,coupe,5
+242,Mazda,MX-5,cabrio 5,Mazda MX-5,cabrio,5
+243,Mazda,MX-30,elektryczny 4,Mazda MX-30,elektryczny,4
+244,Smart,Fortwo,hatchback 3,Smart Fortwo,hatchback,3
+245,Smart,Forfour,hatchback 3,Smart Forfour,hatchback,3
+246,Smart,EQ Fortwo,elektryczny 4,Smart EQ Fortwo,elektryczny,4
+247,Smart,EQ Forfour,elektryczny 4,Smart EQ Forfour,elektryczny,4
+248,Smart,Fortwo,elektryczny 3,Smart Fortwo,elektryczny,3
+249,Mini,Cooper,hatchback 3,Mini Cooper,hatchback,3
+250,Mini,Cooper S,hatchback 4,Mini Cooper S,hatchback,4
+251,Mini,Clubman,kombi 4,Mini Clubman,kombi,4
+252,Mini,Countryman,crossover 4,Mini Countryman,crossover,4
+253,Mini,Cabrio,cabrio 4,Mini Cabrio,cabrio,4
+254,Mini,Cooper SE,elektryczny 4,Mini Cooper SE,elektryczny,4
+255,Alfa Romeo,Giulietta,hatchback 2,Alfa Romeo Giulietta,hatchback,2
+256,Alfa Romeo,Giulia,sedan 4,Alfa Romeo Giulia,sedan,4
+257,Alfa Romeo,Stelvio,SUV 5,Alfa Romeo Stelvio,SUV,5
+258,Alfa Romeo,Stelvio,crossover 5,Alfa Romeo Stelvio,crossover,5
+259,Alfa Romeo,Giulia,coupe 4,Alfa Romeo Giulia,coupe,4
+260,Citroen,C1,hatchback 1,Citroen C1,hatchback,1
+261,Citroen,C5 Aircross,sedan 3,Citroen C5 Aircross,sedan,3
+262,Citroen,C5,sedan 3,Citroen C5,sedan,3
+263,Citroen,C-Elysee,sedan 1,Citroen C-Elysee,sedan,1
+264,Citroen,C5,kombi 3,Citroen C5,kombi,3
+265,Citroen,Jumpy Combi,kombi 4,Citroen Jumpy Combi,kombi,4
+266,Citroen,C4 Grand Picasso,minivan 3,Citroen C4 Grand Picasso,minivan,3
+267,Citroen,SpaceTourer,minivan 4,Citroen SpaceTourer,minivan,4
+268,Citroen,C5 Aircross,SUV 3,Citroen C5 Aircross,SUV,3
+269,Citroen,C3,crossover 2,Citroen C3,crossover,2
+270,Citroen,C3 Aircross,crossover 2,Citroen C3 Aircross,crossover,2
+271,Citroen,C4,crossover 2,Citroen C4,crossover,2
+272,Citroen,Cactus,crossover 2,Citroen Cactus,crossover,2
+273,Citroen,C4 Cactus,crossover 2,Citroen C4 Cactus,crossover,2
+274,Citroen,C4,coupe 2,Citroen C4,coupe,2
+275,Citroen,Jumper,dostawczy 4,Citroen Jumper,dostawczy,4
+276,Jeep,Renegade,hatchback 2,Jeep Renegade,hatchback,2
+277,Jeep,Cherokee,SUV 5,Jeep Cherokee,SUV,5
+278,Jeep,Gladiator,SUV 7,Jeep Gladiator,SUV,7
+279,Jeep,Renegade,SUV 2,Jeep Renegade,SUV,2
+280,Jeep,Wrangler,SUV 6,Jeep Wrangler,SUV,6
+281,Jeep,Compass,crossover 3,Jeep Compass,crossover,3
+282,Jeep,Renegade,crossover 2,Jeep Renegade,crossover,2
+283,Jeep,Wrangler,crossover 6,Jeep Wrangler,crossover,6
+284,Volvo,S60,sedan 5,Volvo S60,sedan,5
+285,Volvo,S90,sedan 5,Volvo S90,sedan,5
+286,Volvo,V40,kombi 4,Volvo V40,kombi,4
+287,Volvo,V60,kombi 4,Volvo V60,kombi,4
+288,Volvo,V90,kombi 6,Volvo V90,kombi,6
+289,Volvo,XC90,kombi 5,Volvo XC90,kombi,5
+290,Volvo,XC90,minivan 5,Volvo XC90,minivan,5
+291,Volvo,XC60,SUV 4,Volvo XC60,SUV,4
+292,Volvo,XC90,SUV 5,Volvo XC90,SUV,5
+293,Volvo,XC40,crossover 4,Volvo XC40,crossover,4
+294,Volvo,S60 Cross Country,crossover 5,Volvo S60 Cross Country,crossover,5
+295,Volvo,V60 Cross Country,crossover 4,Volvo V60 Cross Country,crossover,4
+296,Volvo,XC40 Recharge,elektryczny 7,Volvo XC40 Recharge,elektryczny,7
+297,Volvo,Polestar 1,elektryczny 7,Volvo Polestar 1,elektryczny,7
+298,Audi,A1,hatchback 3,Audi A1,hatchback,3
+299,Audi,A3,hatchback 3,Audi A3,hatchback,3
+300,Audi,RS3,hatchback 6,Audi RS3,hatchback,6
+301,Audi,S3,hatchback 5,Audi S3,hatchback,5
+302,Audi,A3,sedan 3,Audi A3,sedan,3
+303,Audi,A4,sedan 4,Audi A4,sedan,4
+304,Audi,A5,sedan 4,Audi A5,sedan,4
+305,Audi,A6,sedan 4,Audi A6,sedan,4
+306,Audi,A7,sedan 6,Audi A7,sedan,6
+307,Audi,A8,sedan 7,Audi A8,sedan,7
+308,Audi,Q8,sedan 7,Audi Q8,sedan,7
+309,Audi,RS3,sedan 6,Audi RS3,sedan,6
+310,Audi,S4,sedan 7,Audi S4,sedan,7
+311,Audi,S5,sedan 7,Audi S5,sedan,7
+312,Audi,S6,sedan 7,Audi S6,sedan,7
+313,Audi,S7,sedan 7,Audi S7,sedan,7
+314,Audi,S8,sedan 7,Audi S8,sedan,7
+315,Audi,A3,kombi 3,Audi A3,kombi,3
+316,Audi,A4,kombi 4,Audi A4,kombi,4
+317,Audi,A6 Allroad,kombi 6,Audi A6 Allroad,kombi,6
+318,Audi,Q7,kombi 6,Audi Q7,kombi,6
+319,Audi,RS4,kombi 7,Audi RS4,kombi,7
+320,Audi,RS5,kombi 7,Audi RS5,kombi,7
+321,Audi,RS6,kombi 7,Audi RS6,kombi,7
+322,Audi,RS7,kombi 7,Audi RS7,kombi,7
+323,Audi,RS,kombi 6,Audi RS,kombi,6
+324,Audi,Q5,SUV 4,Audi Q5,SUV,4
+325,Audi,Q8,SUV 7,Audi Q8,SUV,7
+326,Audi,RS Q8,SUV 7,Audi RS Q8,SUV,7
+327,Audi,SQ5,SUV 7,Audi SQ5,SUV,7
+328,Audi,SQ7,SUV 7,Audi SQ7,SUV,7
+329,Audi,SQ8,SUV 7,Audi SQ8,SUV,7
+330,Audi,A4 Allroad,crossover 6,Audi A4 Allroad,crossover,6
+331,Audi,Q2,crossover 4,Audi Q2,crossover,4
+332,Audi,Q3,crossover 4,Audi Q3,crossover,4
+333,Audi,R8,coupe 7,Audi R8,coupe,7
+334,Audi,RS Q3,coupe 6,Audi RS Q3,coupe,6
+335,Audi,E-Tron,elektryczny 7,Audi E-Tron,elektryczny,7
+336,Lexus,CT,hatchback 3,Lexus CT,hatchback,3
+337,Lexus,ES,sedan 5,Lexus ES,sedan,5
+338,Lexus,IS,sedan 4,Lexus IS,sedan,4
+339,Lexus,LS,sedan 7,Lexus LS,sedan,7
+340,Lexus,LS,kombi 7,Lexus LS,kombi,7
+341,Lexus,NX,SUV 5,Lexus NX,SUV,5
+342,Lexus,UX,crossover 4,Lexus UX,crossover,4
+343,Lexus,NX,crossover 5,Lexus NX,crossover,5
+344,Lexus,LC,coupe 7,Lexus LC,coupe,7
+345,Lexus,RC F,coupe 7,Lexus RC F,coupe,7
+346,Lexus,LC 500 CV,cabrio 7,Lexus LC 500 CV,cabrio,7
+347,Lexus,UX 300e,elektryczny 7,Lexus UX 300e,elektryczny,7
+348,Infiniti,Q50,sedan 5,Infiniti Q50,sedan,5
+349,Infiniti,Q60,coupe 5,Infiniti Q60,coupe,5
+350,Jaguar,XE,sedan 5,Jaguar XE,sedan,5
+351,Jaguar,XF,sedan 5,Jaguar XF,sedan,5
+352,Jaguar,XF,kombi 5,Jaguar XF,kombi,5
+353,Jaguar,E-Pace,crossover 5,Jaguar E-Pace,crossover,5
+354,Jaguar,F-Pace,crossover 6,Jaguar F-Pace,crossover,6
+355,Jaguar,F-Type,coupe 7,Jaguar F-Type,coupe,7
+356,Jaguar,F-Type,cabrio 7,Jaguar F-Type,cabrio,7
+357,Jaguar,I-Pace,elektryczny 7,Jaguar I-Pace,elektryczny,7
+358,Land Rover,Defender,SUV 7,Land Rover Defender,SUV,7
+359,Land Rover,Discovery Sport,SUV 5,Land Rover Discovery Sport,SUV,5
+360,Land Rover,Range Rover,SUV 7,Land Rover Range Rover,SUV,7
+361,Land Rover,Range Rover Sport,SUV 7,Land Rover Range Rover Sport,SUV,7
+362,Land Rover,Discovery,SUV 6,Land Rover Discovery,SUV,6
+363,Land Rover,Range Rover Evoque,SUV 5,Land Rover Range Rover Evoque,SUV,5
+364,Land Rover,Range Rover Evoque,crossover 5,Land Rover Range Rover Evoque,crossover,5
+365,Land Rover,Discovery Sport,crossover 5,Land Rover Discovery Sport,crossover,5
+366,BMW,Seria 1,hatchback 3,BMW Seria 1,hatchback,3
+367,BMW,3GT,sedan 4,BMW 3GT,sedan,4
+368,BMW,6GT,sedan 7,BMW 6GT,sedan,7
+369,BMW,M3,sedan 7,BMW M3,sedan,7
+370,BMW,M4,sedan 7,BMW M4,sedan,7
+371,BMW,M5,sedan 7,BMW M5,sedan,7
+372,BMW,M8,sedan 7,BMW M8,sedan,7
+373,BMW,Seria 2,sedan 4,BMW Seria 2,sedan,4
+374,BMW,Seria 3,sedan 2,BMW Seria 3,sedan,2
+375,BMW,Seria 4,sedan 5,BMW Seria 4,sedan,5
+376,BMW,Seria 5,sedan 5,BMW Seria 5,sedan,5
+377,BMW,Seria 6,sedan 7,BMW Seria 6,sedan,7
+378,BMW,Seria 7,sedan 7,BMW Seria 7,sedan,7
+379,BMW,Seria 8,sedan 7,BMW Seria 8,sedan,7
+380,BMW,X5,SUV 7,BMW X5,SUV,7
+381,BMW,X5 M,SUV 7,BMW X5 M,SUV,7
+382,BMW,X6,SUV 7,BMW X6,SUV,7
+383,BMW,X6 M,SUV 7,BMW X6 M,SUV,7
+384,BMW,X7,SUV 7,BMW X7,SUV,7
+385,BMW,X2,SUV 4,BMW X2,SUV,4
+386,BMW,X2,SUV 4,BMW X2,SUV,4
+387,BMW,X2,SUV 4,BMW X2,SUV,4
+388,BMW,X1,crossover 4,BMW X1,crossover,4
+389,BMW,X2,crossover 4,BMW X2,crossover,4
+390,BMW,X3,crossover 2,BMW X3,crossover,2
+391,BMW,X3 M,crossover 7,BMW X3 M,crossover,7
+392,BMW,X4,crossover 5,BMW X4,crossover,5
+393,BMW,M2,coupe 7,BMW M2,coupe,7
+394,BMW,Z4 M,coupe 7,BMW Z4 M,coupe,7
+395,BMW,Z4,cabrio 5,BMW Z4,cabrio,5
+396,BMW,Z4 M,cabrio 7,BMW Z4 M,cabrio,7
+397,BMW,i3,elektryczny 4,BMW i3,elektryczny,4
+398,BMW,i4,elektryczny 7,BMW i4,elektryczny,7
+399,BMW,iX,elektryczny 7,BMW iX,elektryczny,7
+400,BMW,i3s,elektryczny 5,BMW i3s,elektryczny,5
+401,Mercedes,Klasa A,hatchback 3,Mercedes Klasa A,hatchback,3
+402,Mercedes,Klasa B,hatchback 4,Mercedes Klasa B,hatchback,4
+403,Mercedes,CLA,sedan 4,Mercedes CLA,sedan,4
+404,Mercedes,CLS,sedan 7,Mercedes CLS,sedan,7
+405,Mercedes,Klasa C,sedan 4,Mercedes Klasa C,sedan,4
+406,Mercedes,Klasa E,sedan 3,Mercedes Klasa E,sedan,3
+407,Mercedes,Klasa S,sedan 7,Mercedes Klasa S,sedan,7
+408,Mercedes,CLA,kombi 4,Mercedes CLA,kombi,4
+409,Mercedes,Klasa V,minivan 5,Mercedes Klasa V,minivan,5
+410,Mercedes,Vito,minivan 4,Mercedes Vito,minivan,4
+411,Mercedes,GLB,SUV 4,Mercedes GLB,SUV,4
+412,Mercedes,GLE,SUV 7,Mercedes GLE,SUV,7
+413,Mercedes,GLS,SUV 7,Mercedes GLS,SUV,7
+414,Mercedes,Klasa G,SUV 7,Mercedes Klasa G,SUV,7
+415,Mercedes,EQC,crossover 7,Mercedes EQC,crossover,7
+416,Mercedes,GLA,crossover 4,Mercedes GLA,crossover,4
+417,Mercedes,AMG GT,coupe 7,Mercedes AMG GT,coupe,7
+418,Mercedes,GLC,coupe 5,Mercedes GLC,coupe,5
+419,Mercedes,Klasa C,cabrio 4,Mercedes Klasa C,cabrio,4
+420,Mercedes,Klasa E,cabrio 3,Mercedes Klasa E,cabrio,3
+421,Mercedes,Sprinter,dostawczy 5,Mercedes Sprinter,dostawczy,5
+422,Mercedes,Klasa X,pickup 6,Mercedes Klasa X,pickup,6
+423,Mercedes,EQV,elektryczny 7,Mercedes EQV,elektryczny,7
+424,Porsche,Panamera,sedan 7,Porsche Panamera,sedan,7
+425,Porsche,Cayenne,SUV 7,Porsche Cayenne,SUV,7
+426,Porsche,Macan,crossover 7,Porsche Macan,crossover,7
+427,Porsche,911,coupe 7,Porsche 911,coupe,7
+428,Porsche,718 Cayman,coupe 6,Porsche 718 Cayman,coupe,6
+429,Porsche,911,cabrio 7,Porsche 911,cabrio,7
+430,Porsche,718 Boxster,cabrio 7,Porsche 718 Boxster,cabrio,7
+431,Porsche,718 Spyder,cabrio 7,Porsche 718 Spyder,cabrio,7
+432,Porsche,Taycan,elektryczny 7,Porsche Taycan,elektryczny,7
+433,Tesla,Model S,elektryczny 7,Tesla Model S,elektryczny,7
+434,Tesla,Model 3,elektryczny 5,Tesla Model 3,elektryczny,5
+435,Tesla,Model X,elektryczny 7,Tesla Model X,elektryczny,7
+436,Tesla,Model Y,elektryczny 6,Tesla Model Y,elektryczny,6
+437,Dacia,Spring,elektryczny 3,Dacia Spring,elektryczny,3
