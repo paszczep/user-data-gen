@@ -27,7 +27,7 @@ with open(input_file, 'r') as base_data:
         writer.writeheader()
 
         j = 0
-        for element in foundation[1:1000]:
+        for element in foundation[1:]:
 
             all_seen_cars = []
             all_price_check_cars = []
