@@ -1,5 +1,6 @@
 from sheet import AnswerSheet
-from const import GEN_PROFILES, BUDGET_CLSS
+from const import GEN_PROFILES
+# from const import BUDGET_CLSS
 from random import randint, randrange, gauss
 import json
 from const import TIME_FORMAT, FORM_QUESTIONS
@@ -32,8 +33,8 @@ def random_human_date(from_date, until_date):
 
 def get_ordered_end_time_samples(
         n=1100,
-        start='2021-02-06 12:00:00',
-        end='2021-03-20 12:00:00'):
+        start='2021-03-20 12:00:00',
+        end='2021-05-24 12:00:00'):
     starting_with = datetime.strptime(start, TIME_FORMAT)
     ending_with = datetime.strptime(end, TIME_FORMAT)
     samples = n
@@ -48,7 +49,7 @@ def get_ordered_end_time_samples(
     return sorted_times_list
 
 
-end_time_o_clocks = get_ordered_end_time_samples(n=5000)
+end_time_o_clocks = get_ordered_end_time_samples(n=10000)
 
 i = 1
 list_o_gen_samples = [FORM_QUESTIONS]
@@ -59,7 +60,7 @@ output_car_groups = {}
 for end_time in end_time_o_clocks:
     random_profile = GEN_PROFILES[randint(0, len(GEN_PROFILES) - 1)]
     bob = AnswerSheet(random_profile, i, end_time, car_cost_class)
-    if i < 7000:
+    if i < 12000:
         list_o_gen_samples.append(bob.answers)
     i += 1
 
@@ -100,5 +101,3 @@ with open(json_forms, 'w') as outfile:
 #
 # with open(json_groups, 'w') as outfile1:
 #     json.dump(output_car_groups, outfile1)
-
-
