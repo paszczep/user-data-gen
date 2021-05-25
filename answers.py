@@ -706,7 +706,6 @@ def question_39(profile):
         "SPORT": pool[2:4],
         "RANDOM": pool}
 
-    # answer = mapping[profile].pop(randint(0, len(mapping[profile]) - 1))
     answer = choice(mapping[profile])
 
     return answer

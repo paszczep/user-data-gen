@@ -1,6 +1,5 @@
 import answers
 from const import TIME_FORMAT, MAKE_BODY_MODELS, BUDGET_CLSS, ELECTRIC_CAR_BODIES
-# import pandas as pd
 from random import choice
 from random import gauss
 from datetime import datetime
@@ -56,22 +55,17 @@ class AnswerSheet:
             sel_car_mdls = [[brnd, mdl] for brnd in fav_brnds for mdl in MAKE_BODY_MODELS[brnd][sel_body]]
 
         if not sel_car_mdls:
-            # print('not sel_car_mdls', id_number)
             sel_car_mdls = []
             car_body_class = car_class_cost
             budget_class = list(BUDGET_CLSS.keys())[list(BUDGET_CLSS.values()).index(self.answers[10])]
             selection_class = ' '.join([sel_body, str(budget_class)])
-            # print(selection_class)
             for row in range(0, len(car_body_class)):
                 if selection_class in car_body_class[['class']].loc[row].values:
-                    # print(list(car_body_class[['make', 'model']].loc[row].values))
                     sel_car_mdls.append(list(car_body_class[['make', 'model']].loc[row].values))
 
             if not sel_car_mdls:
-                # selection_class = ' '.join([sel_body, str(budget_class + 1)])
                 for row in range(0, len(car_body_class)):
                     if sel_body in car_body_class[['body']].loc[row].values:
-                        # print(list(car_body_class[['make', 'model']].loc[row].values))
                         sel_car_mdls.append(list(car_body_class[['make', 'model']].loc[row].values))
         try:
             self.answers[38] = choice(sel_car_mdls)
@@ -85,7 +79,6 @@ class AnswerSheet:
 
         fav_car = ' '.join(self.answers[38])
         fav_car_budget_class = int(car_class_cost['budget'][car_class_cost['car'].str.match(fav_car)].values[0])
-        # print(fav_car_budget_class)
         try:
             self.answers[10] = BUDGET_CLSS[fav_car_budget_class]
         except IndexError:

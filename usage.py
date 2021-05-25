@@ -14,12 +14,7 @@ input_file = "generated_data.json"
 with open(input_file, 'r') as base_data:
     foundation = json.load(base_data)
 
-    # val_list = list(BUDGET_CLSS.values())
-
     CAR_BODY_CLASS = pd.read_csv('all_cars_data.csv')
-
-    # total_operations = DataFrame(columns=['user', 'operation_type', 'duration', 'car_make',
-    #                                       'car_model', 'car_body', 'price_point'])
 
     with open('total_operations.csv', 'w', newline='') as target_csv:
         csv_columns = ['id', 'operation_type', 'duration', 'car_make', 'car_model', 'car_body', 'price_point']
@@ -86,8 +81,6 @@ with open(input_file, 'r') as base_data:
                                 tile[2].split(' ')[0], tile[2].split(' ')[1])
                 i += 1
                 writer.writerow(bob.print_operation())
-                # total_operations = pd.concat([pd.DataFrame(bob.print_operation(), index=[j]), total_operations])
-                # j += 1
 
             price_times = []
             for i in range(len(all_price_check_cars)):
@@ -100,8 +93,7 @@ with open(input_file, 'r') as base_data:
                                 tile[2].split(' ')[0], tile[2].split(' ')[1])
                 i += 1
                 writer.writerow(bob.print_operation())
-                # total_operations = pd.concat([pd.DataFrame(bob.print_operation(), index=[j]), total_operations])
-                # j += 1
+
             details_times = []
             for i in range(len(all_seen_cars)):
                 t = abs(gauss(10, 3)) + 5
@@ -113,10 +105,6 @@ with open(input_file, 'r') as base_data:
                                 tile[2].split(' ')[1])
                 i += 1
                 writer.writerow(bob.print_operation())
-                # total_operations = pd.concat([pd.DataFrame(bob.print_operation(), index=[j]), total_operations])
-                # j += 1
-
-# total_operations.to_csv('total_operations.csv')
 
 conclusion = time.perf_counter()
 
